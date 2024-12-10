@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Master",
+        "route": "master",
+        "icon": "cilLayers"
+    },
+    {
+        "name": "Preference",
+        "route": "preference",
+        "icon": "cilCog"
+    },
+    {
+        "name": "Product Category",
+        "route": "product-category",
+        "icon": null,
+        "parent": "Master",
+        "sort": 1
+    },
+    {
+        "name": "Product",
+        "route": "product",
+        "icon": null,
+        "parent": "Master",
+        "sort": 2
+    },
+    {
+        "name": "Customer",
+        "route": "customer",
+        "icon": null,
+        "parent": "Master",
+        "sort": 3
+    },
+    {
+        "name": "Store Configuration",
+        "route": "store-configuration",
+        "icon": null,
+        "parent": "Preference",
+        "sort": 1
+    },
+    {
+        "name": "User",
+        "route": "user",
+        "icon": null,
+        "parent": "Preference",
+        "sort": 2
+    },
+    {
+        "name": "Role Management",
+        "route": "role-management",
+        "icon": null,
+        "parent": "Preference",
+        "sort": 3
+    },
+    {
+        "name": "Menu",
+        "route": "menu",
+        "icon": null,
+        "parent": "Preference",
+        "sort": 4
+    }
+]

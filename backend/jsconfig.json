@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@config": ["./config/*"],
+      "@models": ["./models/*"],
+      "@controllers": ["./controllers/*"],
+      "@routes": ["./routes/*"],
+      "@services": ["./services/*"],
+      "@seeder": ["./seeders/*"]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "migrate:up": "npx sequelize-cli db:migrate",
+        "migrate:down": "npx sequelize-cli db:migrate:undo",
+        "migrate:reset": "npx sequelize-cli db:migrate:undo:all",
+        "db:seed": "npx sequelize-cli db:seed:all",
+        "route:list": "node utils/route-list.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "express-list-routes": "^1.2.4",
+        "express-route-list": "^1.0.23",
+        "http-status-codes": "^2.3.0",
+        "module-alias": "^2.2.3",
+        "mysql2": "^3.11.4",
+        "sequelize": "^6.37.5",
+        "sequelize-cli": "^6.6.2"
+    },
+    "_moduleAliases": {
+        "@config": "config",
+        "@controllers": "controllers",
+        "@helpers": "helpers",
+        "@models": "models",
+        "@middlewares": "middleware",
+        "@routes": "routes",
+        "@seeders": "seeders",
+        "@services": "services",
+        "@utils": "utils"
+    }
+}
